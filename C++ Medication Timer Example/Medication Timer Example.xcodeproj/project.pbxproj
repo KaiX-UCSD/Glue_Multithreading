@@ -1,0 +1,268 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D0ACE7711DBD7DDA00435728 /* Entry.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D0ACE7691DBD7DDA00435728 /* Entry.cpp */; };
+		D0ACE7721DBD7DDA00435728 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D0ACE76C1DBD7DDA00435728 /* main.cpp */; };
+		D0ACE7731DBD7DDA00435728 /* Makefile in Sources */ = {isa = PBXBuildFile; fileRef = D0ACE76D1DBD7DDA00435728 /* Makefile */; };
+		D0ACE7741DBD7DDA00435728 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = D0ACE76E1DBD7DDA00435728 /* README.md */; };
+		D0ACE7781DBD865700435728 /* Scheduler.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D0ACE7771DBD865700435728 /* Scheduler.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		D0ACE75D1DBD7D9600435728 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		D0ACE75F1DBD7D9600435728 /* Medication Timer Example */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Medication Timer Example"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D0ACE7691DBD7DDA00435728 /* Entry.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Entry.cpp; sourceTree = "<group>"; };
+		D0ACE76A1DBD7DDA00435728 /* Entry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Entry.h; sourceTree = "<group>"; };
+		D0ACE76B1DBD7DDA00435728 /* entryfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = entryfile; sourceTree = "<group>"; };
+		D0ACE76C1DBD7DDA00435728 /* main.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		D0ACE76D1DBD7DDA00435728 /* Makefile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.make; path = Makefile; sourceTree = "<group>"; };
+		D0ACE76E1DBD7DDA00435728 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		D0ACE7761DBD865700435728 /* Scheduler */ = {isa = PBXFileReference; lastKnownFileType = file; path = Scheduler; sourceTree = "<group>"; };
+		D0ACE7771DBD865700435728 /* Scheduler.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Scheduler.cpp; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D0ACE75C1DBD7D9600435728 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D0ACE7561DBD7D9600435728 = {
+			isa = PBXGroup;
+			children = (
+				D0ACE7611DBD7D9600435728 /* Medication Timer Example */,
+				D0ACE7601DBD7D9600435728 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D0ACE7601DBD7D9600435728 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D0ACE75F1DBD7D9600435728 /* Medication Timer Example */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D0ACE7611DBD7D9600435728 /* Medication Timer Example */ = {
+			isa = PBXGroup;
+			children = (
+				D0ACE7761DBD865700435728 /* Scheduler */,
+				D0ACE7771DBD865700435728 /* Scheduler.cpp */,
+				D0ACE7691DBD7DDA00435728 /* Entry.cpp */,
+				D0ACE76A1DBD7DDA00435728 /* Entry.h */,
+				D0ACE76B1DBD7DDA00435728 /* entryfile */,
+				D0ACE76C1DBD7DDA00435728 /* main.cpp */,
+				D0ACE76D1DBD7DDA00435728 /* Makefile */,
+				D0ACE76E1DBD7DDA00435728 /* README.md */,
+			);
+			path = "Medication Timer Example";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D0ACE75E1DBD7D9600435728 /* Medication Timer Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D0ACE7661DBD7D9600435728 /* Build configuration list for PBXNativeTarget "Medication Timer Example" */;
+			buildPhases = (
+				D0ACE75B1DBD7D9600435728 /* Sources */,
+				D0ACE75C1DBD7D9600435728 /* Frameworks */,
+				D0ACE75D1DBD7D9600435728 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Medication Timer Example";
+			productName = "Medication Timer Example";
+			productReference = D0ACE75F1DBD7D9600435728 /* Medication Timer Example */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D0ACE7571DBD7D9600435728 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Justin Wu";
+				TargetAttributes = {
+					D0ACE75E1DBD7D9600435728 = {
+						CreatedOnToolsVersion = 7.3;
+					};
+				};
+			};
+			buildConfigurationList = D0ACE75A1DBD7D9600435728 /* Build configuration list for PBXProject "Medication Timer Example" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = D0ACE7561DBD7D9600435728;
+			productRefGroup = D0ACE7601DBD7D9600435728 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D0ACE75E1DBD7D9600435728 /* Medication Timer Example */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D0ACE75B1DBD7D9600435728 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D0ACE7731DBD7DDA00435728 /* Makefile in Sources */,
+				D0ACE7721DBD7DDA00435728 /* main.cpp in Sources */,
+				D0ACE7741DBD7DDA00435728 /* README.md in Sources */,
+				D0ACE7711DBD7DDA00435728 /* Entry.cpp in Sources */,
+				D0ACE7781DBD865700435728 /* Scheduler.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		D0ACE7641DBD7D9600435728 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		D0ACE7651DBD7D9600435728 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		D0ACE7671DBD7D9600435728 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		D0ACE7681DBD7D9600435728 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D0ACE75A1DBD7D9600435728 /* Build configuration list for PBXProject "Medication Timer Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D0ACE7641DBD7D9600435728 /* Debug */,
+				D0ACE7651DBD7D9600435728 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D0ACE7661DBD7D9600435728 /* Build configuration list for PBXNativeTarget "Medication Timer Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D0ACE7671DBD7D9600435728 /* Debug */,
+				D0ACE7681DBD7D9600435728 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D0ACE7571DBD7D9600435728 /* Project object */;
+}
